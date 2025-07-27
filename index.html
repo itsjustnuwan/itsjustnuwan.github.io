@@ -1207,6 +1207,9 @@
 
             submitButton.textContent = 'Sending...';
             submitButton.disabled = true;
+            setTimeout(() => {
+                submitButton.textContent = 'Submitted';
+            }, 3000);
         });
 
         const mobileMenu = document.querySelector('.mobile-menu');
