@@ -39,7 +39,6 @@
             padding: 0 2rem;
         }
 
-        /* Header */
         header {
             background: var(--secondary-bg);
             box-shadow: var(--shadow);
@@ -216,7 +215,7 @@
             padding: 1rem;
             box-shadow: var(--shadow-lg);
             width: 100%;
-            max-width: 400px;
+            max-width: 600px;
             position: relative;
             overflow: hidden;
         }
@@ -272,7 +271,27 @@
         .code-line:nth-child(4) {
             animation-delay: 2s;
         }
-
+        .code-line:nth-child(5) {
+            animation-delay: 2.5s;
+        }
+        .code-line:nth-child(6) {
+            animation-delay: 3s;
+        }
+        .code-line:nth-child(7) {
+            animation-delay: 3.5s;
+        }
+        .code-line:nth-child(8) {
+            animation-delay: 4s;
+        }
+        .code-line:nth-child(9) {
+            animation-delay: 4.5s;
+        }
+        .code-line:nth-child(10) {
+            animation-delay: 5s;
+        }
+        .code-line:nth-child(11) {
+            animation-delay: 5.5s;
+        }
         .keyword {
             color: #4299e1;
         }
@@ -639,6 +658,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu">
@@ -677,14 +697,27 @@
                                 <div class="window-dot dot-green"></div>
                             </div>
                             <div class="code-content">
-                                <div class="code-line"><span class="keyword">const</span> developer = {</div>
-                                <div class="code-line"> name: <span class="string">"Nuwantha Peiris"</span>,</div>
-                                <div class="code-line"> skills: [<span class="string">"Java"</span>, <span
-                                        class="string">"JavaScript"</span>, <span class="string">"Banking"</span>],
-                                </div>
-                                <div class="code-line"> passion: <span class="string">"Technology & Finance"</span>
-                                </div>
-                                <div class="code-line">};</div>
+                                <div class="code-line"><span class="keyword">public class</span> <span
+                                        class="class-name">Nuwantha</span> {</div>
+
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">String</span> name
+                                    = <span class="string">"Nuwantha Peiris"</span>;</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">String</span> title
+                                    = <span class="string">"Tech-Savvy Banker | Aspiring Developer"</span>;</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">String</span>[]
+                                    skills = { <span class="string">"Java"</span>, <span
+                                        class="string">"JavaScript"</span>, <span class="string">"HTML"</span>, <span
+                                        class="string">"Troubleshooting"</span> };</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">String</span>[]
+                                    languages = { <span class="string">"English"</span>, <span
+                                        class="string">"Sinhala"</span> };</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">String</span>
+                                    dailyRoutine() {</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                                        class="keyword">return</span> <span class="string">"☀️ Wake up → 🏦 Bank → 💻
+                                        Code → ☕ Coffee → 🔁 Repeat"</span>;</div>
+                                <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+                                <div class="code-line">}</div>
                             </div>
                         </div>
                     </div>
@@ -698,43 +731,44 @@
                 <p class="section-subtitle">Bridging technology and finance with passion and expertise</p>
                 <div class="about-content">
                     <div class="skill-category">
-                    <div class="about-text">
-                        <p>I'm currently pursuing my Bachelor's degree in Information Technology at the University of
-                            Moratuwa, while gaining valuable real-world experience at Nations Trust Bank PLC as a
-                            Consumer Credit Management Assistant.</p>
-                        <p>My journey combines academic excellence with practical application, allowing me to develop
-                            both technical skills and business acumen. I'm passionate about leveraging technology to
-                            solve complex financial challenges and improve customer experiences.</p>
-                    </div>
+                        <div class="about-text">
+                            <p>I'm currently pursuing my Bachelor's degree in Information Technology at the University
+                                of Moratuwa, while gaining valuable hands on work experience at Nations Trust Bank PLC as a
+                                Consumer Credit Management Assistant.</p>
+                            <p>My journey combines academic excellence with practical application, allowing me to
+                                develop both technical skills and business acumen. I'm passionate about leveraging technology to
+                                solve complex challenges and improve customer experiences.</p>
+                        </div>
                     </div>
                     <div class="skills-grid">
                         <div class="skill-category">
-                            <h3>Programming</h3>
+                            <h3>Programming languages</h3>
                             <ul class="skill-list">
-                                <li>Java</li>
-                                <li>JavaScript</li>
                                 <li>HTML/CSS</li>
+                                <li>JavaScript</li>
                                 <li>PHP</li>
                                 <li>C#</li>
+                                <li>SQL</li>
+                                <li>Java</li>
                             </ul>
                         </div>
                         <div class="skill-category">
                             <h3>Tools & Software</h3>
                             <ul class="skill-list">
+                                <li>MS Windows</li>
                                 <li>MS Office Suite</li>
-                                <li>Graphic Design</li>
-                                <li>Database Management</li>
-                                <li>Version Control</li>
+                                <li>Adobe Suite</li>
+                                <li>Visual Studio</li>  
                             </ul>
                         </div>
                         <div class="skill-category">
                             <h3>Core Competencies</h3>
                             <ul class="skill-list">
-                                <li>Problem Solving</li>
-                                <li>Communication</li>
+                                <li>Problem Solving and Troubleshooting</li>
                                 <li>Teamwork</li>
                                 <li>Time Management</li>
                                 <li>Customer Service</li>
+                                <li>Communication</li>
                             </ul>
                         </div>
                     </div>
@@ -745,26 +779,108 @@
         <section id="experience" class="experience">
             <div class="container">
                 <h2 class="section-title">Experience</h2>
-                <p class="section-subtitle">Professional journey in banking and technology</p>
+                <p class="section-subtitle">Professional journey in banking and technology.</p>
                 <div class="experience-timeline">
                     <div class="timeline-item">
                         <div class="job-header">
                             <div>
-                                <h3 class="job-title">Consumer Credit Management Assistant</h3>
+                                <h3 class="job-title">Banking Assistant - Consumer Credit Management</h3>
                                 <p class="company">Nations Trust Bank PLC</p>
                             </div>
-                            <span class="job-date">2022 MAR - PRESENT</span>
+                            <span class="job-date">2024 JAN - PRESENT</span>
+                        </div>
+                        <p class="job-description">Compliance and Verification Duties</p>
+                        <ul class="job-duties">
+                            <li>Evaluate and process credit card & personal loan applications</li>
+                            <li>Ensure compliance with internal credit policies and banking regulations</li>
+                            <li>Attend User Acceptence Testing for internal systems</li>
+                        </ul>
+                        <p class="job-description">Projects</p>
+                        <ul class="job-duties">
+                            <li>Created process documents outlining internal procedures</li>
+                            <li>Developed an HTML and JavaScript-based checklist to help front-end staff streamline
+                                their workflow</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title">Banking Trainee - Consumer Credit Management</h3>
+                                <p class="company">Nations Trust Bank PLC</p>
+                            </div>
+                            <span class="job-date">2022 MAR - 2024 JAN</span>
                         </div>
                         <p class="job-description">Compliance and Verification Duties</p>
                         <ul class="job-duties">
                             <li>Ensure compliance with internal credit policies and banking regulations</li>
                             <li>Evaluate and process credit card & personal loan applications</li>
-                            <li>Created process documents outlining internal credit card limit restriction procedures
-                            </li>
-                            <li>Developed an HTML and JavaScript-based checklist to help front-end staff streamline
-                                their workflow</li>
+                            <li>Attend User Acceptence Testing for internal systems</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic journey thus far.</p>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title">Bachelors in Information Technology</h3>
+                                <p class="company">University of Moratuwa</p>
+                            </div>
+                            <span class="job-date">2024 MAR - PRESENT</span>
+                        </div>
+                        <p class="job-description">Status: Ongioing (2nd year)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title"> Diploma in Information Technology</h3>
+                                <p class="company">IMBS Green Campus</p>
+                            </div>
+                            <span class="job-date">2021 JAN - 2021 SEP</span>
+                        </div>
+                        <p class="job-description">Status: Completed</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title">Certificate course in English Language</h3>
+                                <p class="company">IMBS Green Campus</p>
+                            </div>
+                            <span class="job-date">2021 JAN - 2021 SEP</span>
+                        </div>
+                        <p class="job-description">Status: Completed</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title">Certificate course in Graphics Design</h3>
+                                <p class="company">Jayasekera Management Centre · JMC</p>
+                            </div>
+                            <span class="job-date">2018 JAN - 2018 JUL</span>
+                        </div>
+                        <p class="job-description">Status: Completed</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="job-header">
+                            <div>
+                                <h3 class="job-title">Primary and Secondary education</h3>
+                                <p class="company">St. Anthony’s College Wattala</p>
+                            </div>
+                            <span class="job-date">2006 - 2020</span>
+                        </div>
+                        <p class="job-description">Status: Completed</p>
+                        <ul class="job-duties">
+                            <li>G.C.E. Advanced Level (2020) - 3Cs in Physical Science Stream</li>
+                            <li>G.C.E. Ordinary Level (2017) - 4As, 2Bs & 3Cs</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -790,15 +906,16 @@
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">🎓</div>
-                            <span><a href="https://web.facebook.com/itsjustnuwan" target="_blank">Facebook</a></span>
+                            <span><a href="https://web.facebook.com/itsjustnuwan" target="_blank">@itsjustnuwan on Facebook</a></span>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">💼</div>
-                            <span><a href="https://x.com/itsjustnuwan" target="_blank">X</a></span>
+                            <span><a href="https://x.com/itsjustnuwan" target="_blank">@itsjustnuwan on X</a></span>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">💼</div>
-                            <span><a href="https://www.linkedin.com/in/itsjustnuwan/" target="_blank">LinkedIn</a></span>
+                            <span><a href="https://www.linkedin.com/in/itsjustnuwan/"
+                                    target="_blank">@itsjustnuwan on LinkedIn</a></span>
                         </div>
                     </div>
                     <form action="https://formspree.io/f/mvgqavln" method="POST" class="contact-form">
