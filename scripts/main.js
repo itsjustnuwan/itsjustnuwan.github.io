@@ -145,6 +145,12 @@ function render(data) {
     i === 1 ? `<span class="accent-word">${w}</span>` : w).join(' ');
   document.getElementById('hero-subtitle').textContent = p.title;
   document.getElementById('hero-bio').textContent = p.bio;
+  const cvBtn = document.getElementById('btn-download-cv');
+  if (cvBtn && p.cv_url && p.cv_url !== '#') {
+    cvBtn.href = p.cv_url;
+    cvBtn.removeAttribute('aria-disabled');
+    cvBtn.style.display = 'inline-flex';
+  }
   document.getElementById('hero-terminal').innerHTML = buildTerminal(p);
 
   // Skills
