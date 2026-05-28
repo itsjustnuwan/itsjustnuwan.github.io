@@ -196,7 +196,7 @@ nav.scrolled {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(66,153,225,0.12) 0%, transparent 70%);
   top: -200px; left: -150px;
-  animation: drift1 18s ease-in-out infinite alternate;
+  animation: drift1 9s ease-in-out infinite alternate;
 }
 .hero-bg::after {
   content: '';
@@ -205,7 +205,7 @@ nav.scrolled {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(99,179,237,0.08) 0%, transparent 70%);
   bottom: -100px; right: 5%;
-  animation: drift2 14s ease-in-out infinite alternate;
+  animation: drift2 5s ease-in-out infinite alternate;
 }
 .hero-grid {
   position: absolute;
@@ -217,8 +217,8 @@ nav.scrolled {
   opacity: 0.4;
 }
 
-@keyframes drift1 { to { transform: translate(80px, 50px) scale(1.1); } }
-@keyframes drift2 { to { transform: translate(-60px, 30px) scale(0.95); } }
+@keyframes drift1 { to { transform: translate(80px, 50px) scale(1.5); } }
+@keyframes drift2 { to { transform: translate(-60px, 30px) scale(0.5); } }
 
 .hero-inner {
   position: relative;
