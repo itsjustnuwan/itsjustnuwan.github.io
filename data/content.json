@@ -1,0 +1,124 @@
+{
+  "personal": {
+    "name": "Nuwantha Peiris",
+    "initials": "NP",
+    "title": "IT Undergraduate & Banking Professional",
+    "tagline": "Tech-Savvy Banker · Aspiring Developer",
+    "bio": "Motivated and detail-oriented undergraduate pursuing a Bachelor's in Information Technology at the University of Moratuwa, while gaining hands-on experience at Nations Trust Bank PLC as a Consumer Credit Management Assistant. Passionate about bridging technology and finance to solve complex challenges and improve operational efficiency.",
+    "email": "npeiris13@gmail.com",
+    "phone": "0761 826 652",
+    "location": "868/A, Station Road, Hunupitiya, Wattala, Sri Lanka",
+    "cv_url": "#"
+  },
+  "social": [
+    { "platform": "Facebook",  "handle": "@itsjustnuwan", "url": "https://web.facebook.com/itsjustnuwan",   "icon": "facebook"  },
+    { "platform": "LinkedIn",  "handle": "@itsjustnuwan", "url": "https://www.linkedin.com/in/itsjustnuwan/","icon": "linkedin"  },
+    { "platform": "X / Twitter","handle": "@itsjustnuwan", "url": "https://x.com/itsjustnuwan",              "icon": "twitter"   },
+    { "platform": "Instagram", "handle": "@itsjustnuwan", "url": "https://www.instagram.com/itsjustnuwan/","icon": "instagram" }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "icon": "⌨️",
+      "items": ["HTML / CSS", "JavaScript", "PHP", "C#", "SQL", "Java"]
+    },
+    {
+      "category": "Tools & Software",
+      "icon": "🛠️",
+      "items": ["MS Windows", "MS Office Suite", "Adobe Suite", "Visual Studio"]
+    },
+    {
+      "category": "Core Competencies",
+      "icon": "🧠",
+      "items": ["Problem Solving & Troubleshooting", "Teamwork", "Time Management", "Customer Service", "Communication", "Quick Learner"]
+    },
+    {
+      "category": "Languages",
+      "icon": "🌐",
+      "items": ["English", "Sinhala"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Banking Assistant — Consumer Credit Management",
+      "company": "Nations Trust Bank PLC",
+      "period": "Jan 2024 – Present",
+      "current": true,
+      "sections": [
+        {
+          "heading": "Compliance & Verification",
+          "duties": [
+            "Evaluate and process credit card & personal loan applications",
+            "Ensure compliance with internal credit policies and banking regulations",
+            "Attend User Acceptance Testing for internal systems"
+          ]
+        },
+        {
+          "heading": "Projects",
+          "duties": [
+            "Created process documents outlining internal procedures",
+            "Developed an HTML & JavaScript-based checklist to help front-end staff streamline their workflow"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Banking Trainee — Consumer Credit Management",
+      "company": "Nations Trust Bank PLC",
+      "period": "Mar 2022 – Jan 2024",
+      "current": false,
+      "sections": [
+        {
+          "heading": "Compliance & Verification",
+          "duties": [
+            "Ensure compliance with internal credit policies and banking regulations",
+            "Evaluate and process credit card & personal loan applications",
+            "Attend User Acceptance Testing for internal systems"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Information Technology",
+      "institution": "University of Moratuwa",
+      "period": "Mar 2024 – Present",
+      "status": "Ongoing (Final Year)",
+      "highlights": []
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "institution": "IMBS Green Campus",
+      "period": "Jan 2021 – Sep 2021",
+      "status": "Completed",
+      "highlights": []
+    },
+    {
+      "degree": "Certificate Course in English Language",
+      "institution": "IMBS Green Campus",
+      "period": "Jan 2021 – Sep 2021",
+      "status": "Completed",
+      "highlights": []
+    },
+    {
+      "degree": "Certificate Course in Graphics Design",
+      "institution": "Jayasekera Management Centre (JMC)",
+      "period": "Jan 2018 – Jul 2018",
+      "status": "Completed",
+      "highlights": []
+    },
+    {
+      "degree": "Primary & Secondary Education",
+      "institution": "St. Anthony's College Wattala",
+      "period": "2006 – 2020",
+      "status": "Completed",
+      "highlights": [
+        "G.C.E. Advanced Level (2020) — 3Cs in Physical Science Stream",
+        "G.C.E. Ordinary Level (2017) — 4As, 2Bs & 3Cs"
+      ]
+    }
+  ],
+  "projects": [],
+  "certifications": []
+}
