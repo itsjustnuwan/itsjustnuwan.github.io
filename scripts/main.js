@@ -90,7 +90,7 @@ function buildEducationItem(edu) {
     <div class="tl-card">
       <div class="tl-header">
         <span class="tl-title">${edu.degree}</span>
-        <span class="tl-badge">${edu.period}</span>
+        <span class="tl-badge${edu.current ? ' current' : ''}">${edu.current ? '● ' : ''}${edu.period}</span>
       </div>
       <p class="tl-company">${edu.institution}</p>
       <p class="tl-status">${edu.status}</p>
