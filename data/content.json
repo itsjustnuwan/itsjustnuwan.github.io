@@ -46,7 +46,7 @@
       "current": true,
       "sections": [
         {
-          "heading": "Compliance & Verification",
+          "heading": "Duties & Responsibilities",
           "duties": [
             "Evaluate and process credit card & personal loan applications",
             "Ensure compliance with internal credit policies and banking regulations",
@@ -59,6 +59,12 @@
             "Created process documents outlining internal procedures",
             "Developed an HTML & JavaScript-based checklist to help front-end staff streamline their workflow"
           ]
+        },
+        {
+          "heading": "Extra-curricular Activities",
+          "duties": [
+            "Member of the People Engagement Team - GRC (PET-GRC)"
+          ]
         }
       ]
     },
@@ -69,7 +75,7 @@
       "current": false,
       "sections": [
         {
-          "heading": "Compliance & Verification",
+          "heading": "Duties & Responsibilities",
           "duties": [
             "Ensure compliance with internal credit policies and banking regulations",
             "Evaluate and process credit card & personal loan applications",
