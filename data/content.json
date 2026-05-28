@@ -20,12 +20,12 @@
     {
       "category": "Programming Languages",
       "icon": "⌨️",
-      "items": ["HTML / CSS", "JavaScript", "PHP", "C#", "SQL", "Java"]
+      "items": ["HTML / CSS", "JavaScript", "PHP", "C#", "SQL", "Java", "Python" ]
     },
     {
       "category": "Tools & Software",
       "icon": "🛠️",
-      "items": ["MS Windows", "MS Office Suite", "Adobe Suite", "Visual Studio"]
+      "items": ["MS Windows", "MS Office Suite", "Adobe Suite", "Visual Studio", "VS Code", "Android Studio", "Git/Github"]
     },
     {
       "category": "Core Competencies",
