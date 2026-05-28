@@ -131,8 +131,8 @@ function buildContactInfo(p, social) {
 function buildProjectsPlaceholder() {
   return `
     <div class="placeholder-card"><div class="ph-icon">🚀</div><span>Coming soon — project showcase</span></div>
-    <div class="placeholder-card"><div class="ph-icon">🔧</div><span>Add entries in data/content.json</span></div>
-    <div class="placeholder-card"><div class="ph-icon">💡</div><span>Each project gets its own card</span></div>`;
+    <div class="placeholder-card"><div class="ph-icon">🚀</div><span>Coming soon — project showcase</span></div>
+    <div class="placeholder-card"><div class="ph-icon">🚀</div><span>Coming soon — project showcase</span></div>`;
 }
 
 /* ── Render everything ── */
