@@ -40,10 +40,10 @@ function buildTerminal(p) {
       <div class="t-line"><span class="t-kw">public class</span> <span class="t-cls">Nuwantha</span> {</div>
       <div class="t-line">&nbsp;&nbsp;<span class="t-kw">String</span> name = <span class="t-str">"${p.name}"</span>;</div>
       <div class="t-line">&nbsp;&nbsp;<span class="t-kw">String</span> role = <span class="t-str">"${p.tagline}"</span>;</div>
-      <div class="t-line">&nbsp;&nbsp;<span class="t-kw">String</span>[] skills = {<span class="t-str">"Programming"</span>, <span class="t-str">"Banking"</span>, <span class="t-str">"UX"</span>};</div>
+      <div class="t-line">&nbsp;&nbsp;<span class="t-kw">String</span>[] skills = {<span class="t-str">"Programming"</span>, <span class="t-str">"Banking"</span>, <span class="t-str">"Data Analysis & Reporting"</span>};</div>
       <div class="t-line">&nbsp;&nbsp;<span class="t-kw">String</span>[] langs = {<span class="t-str">"English"</span>, <span class="t-str">"Sinhala"</span>};</div>
       <div class="t-line">&nbsp;&nbsp;<span class="t-fn">String</span> dailyRoutine() {</div>
-      <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-kw">return</span> <span class="t-str">"☀️ Wake → 🏦 Bank → 💻 Code → ☕ Coffee"</span>;</div>
+      <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-kw">return</span> <span class="t-str">"Wake → Work → Code → Sleep → Repeat"</span>;</div>
       <div class="t-line">&nbsp;&nbsp;}</div>
       <div class="t-line">} <span class="cursor"></span></div>
     </div>

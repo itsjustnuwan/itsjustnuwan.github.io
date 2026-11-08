@@ -4,7 +4,7 @@
     "initials": "NP",
     "title": "IT Undergraduate & Banking Professional",
     "tagline": "Tech-Savvy Banker · Aspiring Developer",
-    "bio": "Motivated and detail-oriented undergraduate pursuing a Bachelor's in Information Technology at the University of Moratuwa, while gaining hands-on experience at Nations Trust Bank PLC as a Consumer Credit Management Assistant. Passionate about bridging technology and finance to solve complex challenges and improve operational efficiency.",
+    "bio": "Motivated and detail-oriented Information Technology undergraduate at the University of Moratuwa, with hands-on experience in the banking sector and a strong foundation in ICT, programming, data analytics, and banking operations. Skilled in problem-solving, troubleshooting, and communication, with a keen interest in technology, analytics, process improvement, and continuous professional development.",
     "email": "npeiris13@gmail.com",
     "phone": "0761 826 652",
     "location": "868/A, Station Road, Hunupitiya, Wattala, Sri Lanka",
@@ -25,7 +25,7 @@
     {
       "category": "Tools & Software",
       "icon": "🛠️",
-      "items": ["MS Windows", "MS Office Suite", "Adobe Suite", "Visual Studio", "VS Code", "Android Studio", "Git/Github"]
+      "items": ["MS Windows", "MS Office Suite", "Adobe Suite", "Tableau", "Power Automate", "Visual Studio", "VS Code", "Android Studio", "Git/Github"]
     },
     {
       "category": "Core Competencies",
@@ -48,17 +48,18 @@
         {
           "heading": "Duties & Responsibilities",
           "duties": [
-            "Evaluate and process credit card & personal loan applications",
-            "Ensure compliance with internal credit policies and banking regulations",
-            "Attend User Acceptance Testing for internal systems",
-            "Prepare MIS reports"
+            "Process and evaluate credit card and personal loan applications while ensuring compliance with internal banking policies and regulatory requirements.",
+            "Prepare and maintain regular MIS reports to monitor operational performance and support management decision-making.",
+            "Review and verify application details and supporting documents to ensure accuracy, completeness, and compliance.",
+            "Coordinate with relevant departments and stakeholders to facilitate credit operations and resolve process-related issues.",
+            "Participate in UAT for new system changes and enhancements to ensure operational requirements are met."
           ]
         },
         {
           "heading": "Projects",
           "duties": [
             "Created process documents outlining internal procedures",
-            "Developed an HTML & JavaScript-based checklist to help front-end staff streamline their workflow"
+            "Developed an HTML and JavaScript-based checklist to simplify and streamline internal operational workflows."
           ]
         },
         {
@@ -78,9 +79,9 @@
         {
           "heading": "Duties & Responsibilities",
           "duties": [
-            "Ensure compliance with internal credit policies and banking regulations",
-            "Evaluate and process credit card & personal loan applications",
-            "Attend User Acceptance Testing for internal systems"
+            "Process and evaluate credit card and personal loan applications while ensuring compliance with internal banking policies and regulatory requirements.",
+            "Review and verify application details and supporting documents to ensure accuracy, completeness, and compliance.",
+            "Coordinate with relevant departments and stakeholders to facilitate credit operations and resolve process-related issues."
           ]
         }
       ]
